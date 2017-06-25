@@ -1,0 +1,621 @@
+﻿Log file open, 06/25/17 13:12:46
+LogInit:Display: Running engine for game: football
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1538431284) SRandInit(1538431284).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096619
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.25-05.12.47:667][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.25-05.12.47:667][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.25-05.12.47:686][  0]LogInit: Computer: BARS-PC
+[2017.06.25-05.12.47:686][  0]LogInit: User: BARS
+[2017.06.25-05.12.47:686][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.06.25-05.12.47:686][  0]LogInit: High frequency timer resolution =3.801689 MHz
+[2017.06.25-05.12.47:686][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.25-05.12.47:686][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-05.12.47:686][  0]LogMemory: Process Physical Memory: 271.54 MB used, 271.54 MB peak
+[2017.06.25-05.12.47:686][  0]LogMemory: Process Virtual Memory: 258.46 MB used, 258.46 MB peak
+[2017.06.25-05.12.47:686][  0]LogMemory: Physical Memory: 3548.41 MB used,  12796.87 MB free, 16345.29 MB total
+[2017.06.25-05.12.47:686][  0]LogMemory: Virtual Memory: 634.16 MB used,  12796.87 MB free, 134217728.00 MB total
+[2017.06.25-05.12.47:852][  0]LogInit: Using OS detected language (ru-RU).
+[2017.06.25-05.12.47:852][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.06.25-05.12.47:857][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.06.25-05.12.47:858][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.06.25-05.12.49:134][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.25-05.12.49:171][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.06.25-05.12.49:171][  0]LogD3D11RHI:       2017/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.25-05.12.49:172][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.25-05.12.49:172][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.25-05.12.49:172][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.25-05.12.49:179][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.25-05.12.49:179][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.25-05.12.49:179][  0]LogWindows: EnumDisplayDevices:
+[2017.06.25-05.12.49:179][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.06.25-05.12.49:179][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.06.25-05.12.49:180][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.06.25-05.12.49:180][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.06.25-05.12.49:180][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.25-05.12.49:180][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.06.25-05.12.49:180][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.25-05.12.49:180][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.25-05.12.49:180][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.25-05.12.49:208][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.25-05.12.49:228][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.25-05.12.49:279][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Intermediate/Shaders/WorkingDirectory/11116/).
+[2017.06.25-05.12.49:279][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BARS/AppData/Local/Temp/UnrealShaderWorkingDir/9FEF58EA4900E581B4A4998616994815/'.
+[2017.06.25-05.12.49:279][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.25-05.12.51:171][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.25-05.12.51:263][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.25-05.12.51:358][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.25-05.12.51:447][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.25-05.12.51:537][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.25-05.12.51:639][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.25-05.12.51:757][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.25-05.12.51:859][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.25-05.12.51:942][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.25-05.12.52:031][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.25-05.12.52:123][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.25-05.12.52:217][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.25-05.12.52:302][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.25-05.12.52:390][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.25-05.12.52:478][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.25-05.12.52:655][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.25-05.12.52:655][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.25-05.12.52:728][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.25-05.12.52:897][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.25-05.12.52:958][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.25-05.12.53:107][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.25-05.12.53:219][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.25-05.12.53:318][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.25-05.12.53:468][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.25-05.12.53:468][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.25-05.12.54:557][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.25-05.12.54:771][  0]LogDerivedDataCache: Loaded boot cache 0.21s 90MB C:/Users/BARS/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.25-05.12.54:771][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/BARS/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.25-05.12.54:772][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.25-05.12.54:772][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.25-05.12.54:772][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.25-05.12.54:772][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.25-05.12.54:811][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.25-05.12.54:824][  0]LogDerivedDataCache: Using Local data cache path C:/Users/BARS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.25-05.12.54:844][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.25-05.12.54:844][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.25-05.12.54:845][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.25-05.12.54:845][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.25-05.12.55:507][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.25-05.12.55:650][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.25-05.12.55:919][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.25-05.12.56:005][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.25-05.12.56:094][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.25-05.12.56:094][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.25-05.12.56:094][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.25-05.12.57:026][  0]LogNetVersion: football , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1187144866)
+[2017.06.25-05.12.57:123][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.06.25-05.12.57:201][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.027863 seconds
+[2017.06.25-05.12.57:210][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.25-05.12.57:210][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.25-05.12.57:210][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.25-05.12.57:342][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.25-05.13.01:409][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.25-05.13.01:480][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.25-05.13.02:414][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.25-05.13.03:089][  0]SourceControl: Info Source control is disabled
+[2017.06.25-05.13.03:129][  0]SourceControl: Info Source control is disabled
+[2017.06.25-05.13.03:221][  0]SourceControl: Info Source control is disabled
+[2017.06.25-05.13.03:320][  0]SourceControl: Info Source control is disabled
+[2017.06.25-05.13.04:600][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.25-05.13.05:667][  0]LogEngine: Initializing Engine...
+[2017.06.25-05.13.05:668][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.25-05.13.05:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.25-05.13.05:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.25-05.13.06:268][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.25-05.13.06:285][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.13.06:321][  0]LogInit: FAudioDevice initialized.
+[2017.06.25-05.13.06:402][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/BARS/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.25-05.13.06:436][  0]LogInit: Texture streaming: Enabled
+[2017.06.25-05.13.06:623][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.25-05.13.07:011][  0]LogInit: Transaction tracking system initialized
+[2017.06.25-05.13.07:606][  0]BlueprintLog: New page: Editor Load
+[2017.06.25-05.13.09:489][  0]LocalizationService: Info Localization service is disabled
+[2017.06.25-05.13.10:926][  0]LogConsoleResponse:Display: 
+[2017.06.25-05.13.11:169][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.25-05.13.11:169][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.25-05.13.12:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/' took 0.03s
+[2017.06.25-05.13.13:444][  0]SourceControl: Info Source control is disabled
+[2017.06.25-05.13.13:444][  0]Cmd: MAP LOAD FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.25-05.13.13:445][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.25-05.13.13:445][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.25-05.13.13:531][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.579ms to complete.
+[2017.06.25-05.13.13:531][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.087
+[2017.06.25-05.13.13:774][  0]LogCollectionManager: Loaded 1 collections in 0.008589 seconds
+[2017.06.25-05.13.13:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Collections/' took 0.01s
+[2017.06.25-05.13.13:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Developers/BARS/Collections/' took 0.01s
+[2017.06.25-05.13.13:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Collections/' took 0.01s
+[2017.06.25-05.13.13:906][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000007 seconds
+[2017.06.25-05.13.13:906][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.06.25-05.13.13:922][  0]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2329 classes and 491 folders.
+[2017.06.25-05.13.14:066][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.25-05.13.15:895][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.25-05.13.15:979][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.06.25-05.13.16:081][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.25-05.13.16:094][  0]LogSlate: Took 0.000853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.25-05.13.16:100][  0]LogSlate: Took 0.000556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.25-05.13.16:141][  0]LogSlate: Took 0.031294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.25-05.13.16:373][  0]LogRenderer: Reallocating scene render targets to support 872x472 NumSamples 1 (Frame:1).
+[2017.06.25-05.13.16:530][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.25-05.13.16:643][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.25-05.13.16:643][  0]LogLoad: (Engine Initialization) Total time: 32.11 seconds
+[2017.06.25-05.13.16:643][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.06.25-05.13.16:643][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.25-05.13.16:984][  0]LogOcInput: OculusInput pre-init called
+[2017.06.25-05.13.16:984][  0]LogHMD: Starting GearVRController plugin
+[2017.06.25-05.13.17:001][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.25-05.13.17:060][  0]LogSlate: Took 0.005149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-05.13.17:662][  2]LogAssetRegistry: Asset discovery search completed in 20.5611 seconds
+[2017.06.25-05.13.17:668][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000002 seconds (found 0 objects)
+[2017.06.25-05.13.17:668][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000074 seconds (updated 0 objects)
+[2017.06.25-05.13.17:991][  3]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-05.17.18:885][ 92]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.25-05.17.19:770][ 92]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.25-05.17.25:190][ 92]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.17.25:260][ 92]Cmd: MAP LOAD FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Maps/football1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.25-05.17.25:260][ 92]LightingResults: New page: Lighting Build
+[2017.06.25-05.17.25:334][ 92]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2017.06.25-05.17.25:334][ 92]LoadErrors: New page: Loading map: football1.umap
+[2017.06.25-05.17.25:335][ 92]MapCheck: New page: Map Check
+[2017.06.25-05.17.25:335][ 92]LightingResults: New page: Lighting Build
+[2017.06.25-05.17.28:360][ 92]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.25-05.17.28:446][ 92]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.25-05.17.28:551][ 92]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.157ms to complete.
+[2017.06.25-05.17.28:551][ 92]LogFileHelpers: Loading map 'football1' took 3.291
+[2017.06.25-05.18.04:547][329]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.25-05.18.04:612][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.18.04:612][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-05.18.04:613][329]PIE: New page: PIE session: football1 (Jun 25, 2017, 9:18:04 PM)
+[2017.06.25-05.18.04:613][329]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.18.04:686][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072940s)
+[2017.06.25-05.18.04:687][329]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.18.04:688][329]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2017.06.25-05.18.04:688][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.075222s)
+[2017.06.25-05.18.04:728][329]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.18.04:742][329]LogInit: FAudioDevice initialized.
+[2017.06.25-05.18.04:788][329]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.18.04:796][329]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.18.04
+[2017.06.25-05.18.04:797][329]LogWorld: Bringing up level for play took: 0.008293
+[2017.06.25-05.18.04:876][329]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.06.25-05.18.04:876][329]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.18.04:876][329]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.18.04:876][329]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.18.04:877][329]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.18.04:877][329]PIE: Info Play in editor start time for /Game/Resources/Maps/UEDPIE_0_football1 0.545
+[2017.06.25-05.18.04:877][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.18.13:841][388]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.18.13:879][388]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.18.16:494][679]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.06.25-05.18.22:121][ 66]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.06.25-05.18.23:343][ 66]LogSlate: Took 0.012416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.25-05.18.34:480][806]LogRenderer: Reallocating scene render targets to support 956x588 NumSamples 1 (Frame:517).
+[2017.06.25-05.18.36:374][929]LogSlate: Took 0.019182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.25-05.19.12:402][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Materials/material_ball" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Materials/material_ball.uasset" SILENT=true
+[2017.06.25-05.19.12:424][286]LogSavePackage: Save=19.40ms
+[2017.06.25-05.19.12:424][286]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/material_ball9A528E264841BC2FF9234B9BB08CB29D.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Materials/material_ball.uasset'
+[2017.06.25-05.19.12:430][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Materials/material_ball.uasset
+[2017.06.25-05.19.12:685][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/bashnya" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/bashnya.uasset" SILENT=true
+[2017.06.25-05.19.12:721][286]LogSavePackage: Save=19.88ms
+[2017.06.25-05.19.12:721][286]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/bashnya0EEC6AA04F0F06E5DB38B9BB5C0759AD.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/bashnya.uasset'
+[2017.06.25-05.19.12:723][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/bashnya.uasset
+[2017.06.25-05.19.12:749][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/home_object" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/home_object.uasset" SILENT=true
+[2017.06.25-05.19.12:781][286]LogSavePackage: Save=19.43ms
+[2017.06.25-05.19.12:781][286]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/home_object62EF41FF404E886DBB68FE806B2AE5B5.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/home_object.uasset'
+[2017.06.25-05.19.12:784][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/home_object.uasset
+[2017.06.25-05.19.12:806][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/vorota2_blend" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/vorota2_blend.uasset" SILENT=true
+[2017.06.25-05.19.12:838][286]LogSavePackage: Save=19.55ms
+[2017.06.25-05.19.12:838][286]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/vorota2_blendCBA944F84DF763490D2E08B22D0377C1.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/vorota2_blend.uasset'
+[2017.06.25-05.19.12:840][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/vorota2_blend.uasset
+[2017.06.25-05.19.17:464][578]BlueprintLog: New page: Compile ball
+[2017.06.25-05.19.21:043][826]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.25-05.19.21:079][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.21:079][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.25-05.19.21:079][826]LogPlayLevel: [PlayLevel] Compiling football1 before play...
+[2017.06.25-05.19.21:222][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (1 blueprints)
+[2017.06.25-05.19.21:222][826]PIE: New page: PIE session: football1 (Jun 25, 2017, 9:19:21 PM)
+[2017.06.25-05.19.21:222][826]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.19.21:272][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050201s)
+[2017.06.25-05.19.21:273][826]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.19.21:274][826]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2017.06.25-05.19.21:274][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.052025s)
+[2017.06.25-05.19.21:328][826]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.19.21:341][826]LogInit: FAudioDevice initialized.
+[2017.06.25-05.19.21:373][826]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.19.21:380][826]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.19.21
+[2017.06.25-05.19.21:381][826]LogWorld: Bringing up level for play took: 0.007324
+[2017.06.25-05.19.21:382][826]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.21:382][826]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.21:382][826]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.21:382][826]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.21:382][826]PIE: Info Play in editor start time for /Game/Resources/Maps/UEDPIE_0_football1 1.05
+[2017.06.25-05.19.21:382][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.23:054][989]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.23:104][989]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.29:980][444]BlueprintLog: New page: Compile ball
+[2017.06.25-05.19.32:233][628]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.25-05.19.32:258][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.32:258][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-05.19.32:258][628]PIE: New page: PIE session: football1 (Jun 25, 2017, 9:19:32 PM)
+[2017.06.25-05.19.32:258][628]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.19.32:312][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053286s)
+[2017.06.25-05.19.32:313][628]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.19.32:313][628]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2017.06.25-05.19.32:313][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.055135s)
+[2017.06.25-05.19.32:370][628]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.19.32:383][628]LogInit: FAudioDevice initialized.
+[2017.06.25-05.19.32:419][628]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.19.32:426][628]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.19.32
+[2017.06.25-05.19.32:427][628]LogWorld: Bringing up level for play took: 0.007194
+[2017.06.25-05.19.32:428][628]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.32:428][628]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.32:428][628]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.32:428][628]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.32:428][628]PIE: Info Play in editor start time for /Game/Resources/Maps/UEDPIE_0_football1 0.096
+[2017.06.25-05.19.32:428][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.34:969][926]LogBlueprintUserMessages: [Vorota3_687] Goal!!!
+[2017.06.25-05.19.37:970][286]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.19.37:970][286]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.19.37:971][286]LogNet: Browse: /Game/Resources/Maps/football1
+[2017.06.25-05.19.37:971][286]LogLoad: LoadMap: /Game/Resources/Maps/football1
+[2017.06.25-05.19.38:019][286]Cmd: MEM
+[2017.06.25-05.19.38:059][286]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-05.19.38:059][286]LogMemory: Process Physical Memory: 1455.87 MB used, 1467.62 MB peak
+[2017.06.25-05.19.38:059][286]LogMemory: Process Virtual Memory: 2199.61 MB used, 2290.83 MB peak
+[2017.06.25-05.19.38:059][286]LogMemory: Physical Memory: 4660.41 MB used,  11684.88 MB free, 16345.29 MB total
+[2017.06.25-05.19.38:059][286]LogMemory: Virtual Memory: 3090.57 MB used,  11684.88 MB free, 134217728.00 MB total
+[2017.06.25-05.19.38:059][286]LogMemory: 
+[2017.06.25-05.19.38:059][286]Allocator Stats for TBB: (not implemented)
+[2017.06.25-05.19.38:059][286]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.19.38:114][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054549s)
+[2017.06.25-05.19.38:115][286]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.19.38:115][286]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2017.06.25-05.19.38:115][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.056272s)
+[2017.06.25-05.19.38:115][286]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.19.38:134][286]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.19.38
+[2017.06.25-05.19.38:134][286]LogWorld: Bringing up level for play took: 0.018187
+[2017.06.25-05.19.38:135][286]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.38:135][286]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.38:135][286]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.38:136][286]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.38:136][286]LogLoad: Took 0.164463 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_football1)
+[2017.06.25-05.19.39:040][388]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.39:081][388]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.44:505][701]BlueprintLog: New page: Compile ball
+[2017.06.25-05.19.46:826][886]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.25-05.19.46:854][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.46:855][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.25-05.19.46:855][886]PIE: New page: PIE session: football1 (Jun 25, 2017, 9:19:46 PM)
+[2017.06.25-05.19.46:855][886]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.19.46:907][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052030s)
+[2017.06.25-05.19.46:909][886]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.19.46:909][886]LogPlayLevel: PIE: World Init took: (0.002281s)
+[2017.06.25-05.19.46:909][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.054726s)
+[2017.06.25-05.19.46:968][886]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.19.46:981][886]LogInit: FAudioDevice initialized.
+[2017.06.25-05.19.47:015][886]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.19.47:023][886]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.19.47
+[2017.06.25-05.19.47:024][886]LogWorld: Bringing up level for play took: 0.007671
+[2017.06.25-05.19.47:024][886]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.47:024][886]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.47:024][886]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.47:025][886]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.47:025][886]PIE: Info Play in editor start time for /Game/Resources/Maps/UEDPIE_0_football1 0.693
+[2017.06.25-05.19.47:025][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.49:753][207]LogBlueprintUserMessages: [Vorota3_687] Goal!!!
+[2017.06.25-05.19.52:754][567]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.19.52:754][567]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.19.52:755][567]LogNet: Browse: /Game/Resources/Maps/football1
+[2017.06.25-05.19.52:755][567]LogLoad: LoadMap: /Game/Resources/Maps/football1
+[2017.06.25-05.19.52:803][567]Cmd: MEM
+[2017.06.25-05.19.52:841][567]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-05.19.52:841][567]LogMemory: Process Physical Memory: 1467.40 MB used, 1501.86 MB peak
+[2017.06.25-05.19.52:841][567]LogMemory: Process Virtual Memory: 2206.07 MB used, 2328.86 MB peak
+[2017.06.25-05.19.52:841][567]LogMemory: Physical Memory: 4673.26 MB used,  11672.02 MB free, 16345.29 MB total
+[2017.06.25-05.19.52:841][567]LogMemory: Virtual Memory: 3139.76 MB used,  11672.02 MB free, 134217728.00 MB total
+[2017.06.25-05.19.52:841][567]LogMemory: 
+[2017.06.25-05.19.52:841][567]Allocator Stats for TBB: (not implemented)
+[2017.06.25-05.19.52:842][567]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.19.52:892][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050715s)
+[2017.06.25-05.19.52:893][567]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.19.52:894][567]LogPlayLevel: PIE: World Init took: (0.001465s)
+[2017.06.25-05.19.52:894][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.052561s)
+[2017.06.25-05.19.52:894][567]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.19.52:909][567]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.19.52
+[2017.06.25-05.19.52:910][567]LogWorld: Bringing up level for play took: 0.014508
+[2017.06.25-05.19.52:910][567]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.52:910][567]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.19.52:910][567]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.52:911][567]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.19.52:911][567]LogLoad: Took 0.155492 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_football1)
+[2017.06.25-05.19.55:462][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.19.55:508][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.20.01:752][273]BlueprintLog: New page: Compile ball
+[2017.06.25-05.20.24:795][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Blueprints/ball" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/ball.uasset" SILENT=true
+[2017.06.25-05.20.24:839][460]LogSavePackage: Save=27.67ms
+[2017.06.25-05.20.24:839][460]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/ballD8841F61450C7AD27C6040A774A14793.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/ball.uasset'
+[2017.06.25-05.20.24:844][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/ball.uasset
+[2017.06.25-05.20.38:734][823]LogMaterial: Missing cached shader map for material material_ball, compiling. 
+[2017.06.25-05.20.38:735][823]LogMaterial:Warning: Failed to compile Material /Game/Resources/Materials/material_ball.material_ball for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.25-05.20.38:735][823]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.25-05.20.38:737][823]LogMaterial: Missing cached shader map for material material_ball, compiling. 
+[2017.06.25-05.20.38:738][823]LogMaterial:Warning: Failed to compile Material /Game/Resources/Materials/material_ball.material_ball for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.25-05.20.38:738][823]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.06.25-05.20.45:042][322]LogMaterial: Missing cached shader map for material texture_ball, compiling. 
+[2017.06.25-05.20.48:137][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Blueprints/ball" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/ball.uasset" SILENT=true
+[2017.06.25-05.20.48:184][576]LogSavePackage: Save=34.89ms
+[2017.06.25-05.20.48:184][576]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/ball635A1E5E48EB42F8659BA4B6EFD899B8.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/ball.uasset'
+[2017.06.25-05.20.48:189][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/ball.uasset
+[2017.06.25-05.21.00:512][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Materials/texture_ball" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Materials/texture_ball.uasset" SILENT=true
+[2017.06.25-05.21.00:534][217]LogSavePackage: Save=19.51ms
+[2017.06.25-05.21.00:534][217]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/texture_ball8DF00F744A6AECF07889929EEA02B5B4.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Materials/texture_ball.uasset'
+[2017.06.25-05.21.00:538][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Materials/texture_ball.uasset
+[2017.06.25-05.21.03:854][342]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASH_StaticMeshComponent_28' or package '/Engine/Transient'.
+[2017.06.25-05.21.09:784][726]LogEditorViewport: Clicking on Actor (LMB): ball_C (ball)
+[2017.06.25-05.21.37:307][721]BlueprintLog: New page: Compile ball
+[2017.06.25-05.21.40:299][976]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.25-05.21.40:331][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.21.40:331][976]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.25-05.21.40:331][976]LogPlayLevel: [PlayLevel] Compiling football1 before play...
+[2017.06.25-05.21.40:474][976]LogPlayLevel: PlayLevel: Blueprint regeneration took 143 ms (1 blueprints)
+[2017.06.25-05.21.40:474][976]PIE: New page: PIE session: football1 (Jun 25, 2017, 9:21:40 PM)
+[2017.06.25-05.21.40:475][976]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.21.40:527][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051949s)
+[2017.06.25-05.21.40:528][976]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.21.40:528][976]LogPlayLevel: PIE: World Init took: (0.001786s)
+[2017.06.25-05.21.40:529][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.054204s)
+[2017.06.25-05.21.40:581][976]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.21.40:595][976]LogInit: FAudioDevice initialized.
+[2017.06.25-05.21.40:630][976]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.21.40:637][976]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.21.40
+[2017.06.25-05.21.40:638][976]LogWorld: Bringing up level for play took: 0.007253
+[2017.06.25-05.21.40:638][976]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.21.40:638][976]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.21.40:638][976]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.21.40:639][976]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.21.40:639][976]PIE: Info Play in editor start time for /Game/Resources/Maps/UEDPIE_0_football1 0.307
+[2017.06.25-05.21.40:639][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.21.44:658][421]LogBlueprintUserMessages: [Vorota3_687] Goal!!!
+[2017.06.25-05.21.47:661][780]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.21.47:661][780]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.21.47:662][780]LogNet: Browse: /Game/Resources/Maps/football1
+[2017.06.25-05.21.47:662][780]LogLoad: LoadMap: /Game/Resources/Maps/football1
+[2017.06.25-05.21.47:711][780]Cmd: MEM
+[2017.06.25-05.21.47:750][780]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-05.21.47:750][780]LogMemory: Process Physical Memory: 1737.32 MB used, 1855.09 MB peak
+[2017.06.25-05.21.47:750][780]LogMemory: Process Virtual Memory: 2513.00 MB used, 2526.73 MB peak
+[2017.06.25-05.21.47:750][780]LogMemory: Physical Memory: 4871.46 MB used,  11473.83 MB free, 16345.29 MB total
+[2017.06.25-05.21.47:750][780]LogMemory: Virtual Memory: 3522.32 MB used,  11473.83 MB free, 134217728.00 MB total
+[2017.06.25-05.21.47:750][780]LogMemory: 
+[2017.06.25-05.21.47:750][780]Allocator Stats for TBB: (not implemented)
+[2017.06.25-05.21.47:750][780]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.21.47:802][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051344s)
+[2017.06.25-05.21.47:803][780]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.21.47:803][780]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2017.06.25-05.21.47:804][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.053173s)
+[2017.06.25-05.21.47:804][780]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.21.47:815][780]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.21.47
+[2017.06.25-05.21.47:816][780]LogWorld: Bringing up level for play took: 0.011598
+[2017.06.25-05.21.47:817][780]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.21.47:817][780]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.21.47:817][780]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.21.47:817][780]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.21.47:817][780]LogLoad: Took 0.155090 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_football1)
+[2017.06.25-05.21.53:272][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.21.53:315][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.22.39:095][441]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.25-05.22.56:151][237]LogMetaData: Removing '/Game/Resources/Blueprints/home_object1.home_object1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Resources/Blueprints/дом_объект.PackageMetaData'
+[2017.06.25-05.22.56:151][237]LogMetaData: Removing '/Game/Resources/Blueprints/home_object1.home_object1_C' ref from Metadata '/Game/Resources/Blueprints/дом_объект.PackageMetaData'
+[2017.06.25-05.22.56:151][237]LogMetaData: Removing '/Game/Resources/Blueprints/home_object1.home_object1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Resources/Blueprints/дом_объект.PackageMetaData'
+[2017.06.25-05.22.56:151][237]LogMetaData: Removing '/Game/Resources/Blueprints/home_object1.home_object1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Resources/Blueprints/дом_объект.PackageMetaData'
+[2017.06.25-05.22.56:151][237]LogMetaData: Removing '/Game/Resources/Blueprints/home_object1.home_object1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Resources/Blueprints/дом_объект.PackageMetaData'
+[2017.06.25-05.22.56:151][237]LogMetaData: Removing '/Game/Resources/Blueprints/home_object1.SKEL_home_object1_C' ref from Metadata '/Game/Resources/Blueprints/дом_объект.PackageMetaData'
+[2017.06.25-05.22.56:220][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Blueprints/home_object1" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/home_object1.uasset" SILENT=true
+[2017.06.25-05.22.56:248][237]LogSavePackage: Save=25.67ms
+[2017.06.25-05.22.56:248][237]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/home_object19E2766CF44862505FC732FB34097AB7A.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/home_object1.uasset'
+[2017.06.25-05.22.56:252][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/home_object1.uasset
+[2017.06.25-05.23.06:175][218]LogMetaData: Removing '/Game/Resources/Blueprints/home_object2.home_object2:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Resources/Blueprints/дом_объект2.PackageMetaData'
+[2017.06.25-05.23.06:175][218]LogMetaData: Removing '/Game/Resources/Blueprints/home_object2.home_object2_C' ref from Metadata '/Game/Resources/Blueprints/дом_объект2.PackageMetaData'
+[2017.06.25-05.23.06:175][218]LogMetaData: Removing '/Game/Resources/Blueprints/home_object2.home_object2:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Resources/Blueprints/дом_объект2.PackageMetaData'
+[2017.06.25-05.23.06:175][218]LogMetaData: Removing '/Game/Resources/Blueprints/home_object2.home_object2:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Resources/Blueprints/дом_объект2.PackageMetaData'
+[2017.06.25-05.23.06:175][218]LogMetaData: Removing '/Game/Resources/Blueprints/home_object2.home_object2:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Resources/Blueprints/дом_объект2.PackageMetaData'
+[2017.06.25-05.23.06:175][218]LogMetaData: Removing '/Game/Resources/Blueprints/home_object2.SKEL_home_object2_C' ref from Metadata '/Game/Resources/Blueprints/дом_объект2.PackageMetaData'
+[2017.06.25-05.23.06:242][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Blueprints/home_object2" FILE="../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/home_object2.uasset" SILENT=true
+[2017.06.25-05.23.06:270][218]LogSavePackage: Save=26.05ms
+[2017.06.25-05.23.06:271][218]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/home_object26749BF4E4189E134152098AADA0CE786.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/home_object2.uasset'
+[2017.06.25-05.23.06:274][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Content/Resources/Blueprints/home_object2.uasset
+[2017.06.25-05.24.00:793][564]LogLinker: Can't find file '/Game/Resources/Blueprints/UMG/goal'
+[2017.06.25-05.24.00:793][564]LogLinker: Can't find file '/Game/Resources/Blueprints/UMG/goal'
+[2017.06.25-05.26.17:225][769]LogEditorTransaction: Undo Resize Widget
+[2017.06.25-05.26.24:049][  8]LogEditorTransaction: Undo Resize Widget
+[2017.06.25-05.27.44:738][363]LogEditorTransaction: Undo Set Vector Property
+[2017.06.25-05.28.10:817][451]LogEditorTransaction: Undo Resize Widget
+[2017.06.25-05.28.16:347][683]LogEditorTransaction: Undo Set Vector Property
+[2017.06.25-05.28.55:072][367]LogSavePackage: Save=645.63ms
+[2017.06.25-05.28.55:072][367]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/football1_Auto1A6D46D1145061B6115C6BB998C53EE71.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Maps/football1_Auto1.umap'
+[2017.06.25-05.28.55:076][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Maps/football1_Auto1.umap
+[2017.06.25-05.28.55:084][367]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/football1' took 0.751
+[2017.06.25-05.28.55:084][367]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.751
+[2017.06.25-05.28.55:088][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Blueprints/ball] ([1] browsable assets)...
+[2017.06.25-05.28.55:119][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Resources/Blueprints/ball.ball]
+[2017.06.25-05.28.55:120][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Blueprints/ball]
+[2017.06.25-05.28.55:165][367]LogSavePackage: Save=30.02ms
+[2017.06.25-05.28.55:165][367]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/ball_Auto1F0936E8841100E0A550261B4F6ED03D6.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/ball_Auto1.uasset'
+[2017.06.25-05.28.55:168][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/ball_Auto1.uasset
+[2017.06.25-05.28.55:170][367]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Resources/Blueprints/UMG/goal] ([1] browsable assets)...
+[2017.06.25-05.28.55:170][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Blueprints/UMG/goal]
+[2017.06.25-05.28.55:193][367]LogSavePackage: Save=19.63ms
+[2017.06.25-05.28.55:193][367]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/goal_Auto175E0B4B74D303BFDCF6D84A2BDF574B1.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/UMG/goal_Auto1.uasset'
+[2017.06.25-05.28.55:195][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/UMG/goal_Auto1.uasset
+[2017.06.25-05.28.55:196][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/Materials/material_ball] ([1] browsable assets)...
+[2017.06.25-05.28.55:226][367]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Resources/Materials/material_ball.material_ball]
+[2017.06.25-05.28.55:226][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Materials/material_ball]
+[2017.06.25-05.28.55:261][367]LogSavePackage: Save=21.65ms
+[2017.06.25-05.28.55:261][367]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/material_ball_Auto13183360B48577754D370B4AAC05D56D0.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Materials/material_ball_Auto1.uasset'
+[2017.06.25-05.28.55:264][367]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Materials/material_ball_Auto1.uasset
+[2017.06.25-05.28.55:264][367]LogFileHelpers: Auto-saving content packages took 0.178
+[2017.06.25-05.29.18:126][114]LogEditorTransaction: Undo Edit Minimum Desired Width
+[2017.06.25-05.34.24:466][840]LogEditorTransaction: Undo Set Vector Property
+[2017.06.25-05.35.00:409][283]LogEditorTransaction: Undo Move Anchor
+[2017.06.25-05.37.44:277][951]LogEditorTransaction: Undo Resize Widget
+[2017.06.25-05.38.55:856][211]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/football1' took 0.049
+[2017.06.25-05.38.55:858][211]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Resources/Blueprints/UMG/goal] ([1] browsable assets)...
+[2017.06.25-05.38.55:858][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Blueprints/UMG/goal]
+[2017.06.25-05.38.55:877][211]LogSavePackage: Save=16.71ms
+[2017.06.25-05.38.55:877][211]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/goal_Auto22D823DF24C843435FC21CBAAE8CDAE62.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/UMG/goal_Auto2.uasset'
+[2017.06.25-05.38.55:879][211]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/UMG/goal_Auto2.uasset
+[2017.06.25-05.38.55:879][211]LogFileHelpers: Auto-saving content packages took 0.022
+[2017.06.25-05.51.09:967][499]BlueprintLog: New page: Compile goal
+[2017.06.25-05.51.10:132][499]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.25-05.51.35:563][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/football1' took 0.043
+[2017.06.25-05.51.35:565][628]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Resources/Blueprints/UMG/goal] ([1] browsable assets)...
+[2017.06.25-05.51.35:565][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Blueprints/UMG/goal]
+[2017.06.25-05.51.35:590][628]LogSavePackage: Save=22.16ms
+[2017.06.25-05.51.35:590][628]LogSavePackage: Moving '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/goal_Auto35CF18B7C4D85DE2B15A601998D641C20.tmp' to '../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/UMG/goal_Auto3.uasset'
+[2017.06.25-05.51.35:592][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/BARS/Desktop/ПРОГРАММЫ/GGFootball/Saved/Autosaves/Game/Resources/Blueprints/UMG/goal_Auto3.uasset
+[2017.06.25-05.51.35:592][628]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.06.25-05.55.59:075][348]BlueprintLog: New page: Compile Vorota
+[2017.06.25-05.56.28:589][529]BlueprintLog: New page: Compile ball
+[2017.06.25-05.56.31:181][718]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.25-05.56.31:226][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.56.31:226][718]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.25-05.56.31:226][718]LogPlayLevel: [PlayLevel] Compiling goal before play...
+[2017.06.25-05.56.31:381][718]LogPlayLevel: PlayLevel: Blueprint regeneration took 155 ms (1 blueprints)
+[2017.06.25-05.56.31:381][718]PIE: New page: PIE session: football1 (Jun 25, 2017, 9:56:31 PM)
+[2017.06.25-05.56.31:381][718]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.56.31:435][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054298s)
+[2017.06.25-05.56.31:437][718]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.56.31:437][718]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2017.06.25-05.56.31:438][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.056857s)
+[2017.06.25-05.56.31:495][718]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.25-05.56.31:509][718]LogInit: FAudioDevice initialized.
+[2017.06.25-05.56.31:543][718]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.56.31:550][718]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.56.31
+[2017.06.25-05.56.31:551][718]LogWorld: Bringing up level for play took: 0.007191
+[2017.06.25-05.56.31:552][718]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.56.31:552][718]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.56.31:552][718]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.56.31:552][718]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.56.31:552][718]PIE: Info Play in editor start time for /Game/Resources/Maps/UEDPIE_0_football1 1.221
+[2017.06.25-05.56.31:553][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.56.35:308][133]LogBlueprintUserMessages: [Vorota3_687] Goal!!!
+[2017.06.25-05.56.38:308][493]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.56.38:308][493]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.06.25-05.56.38:309][493]LogNet: Browse: /Game/Resources/Maps/football1
+[2017.06.25-05.56.38:309][493]LogLoad: LoadMap: /Game/Resources/Maps/football1
+[2017.06.25-05.56.38:360][493]Cmd: MEM
+[2017.06.25-05.56.38:401][493]LogMemory: Platform Memory Stats for Windows
+[2017.06.25-05.56.38:401][493]LogMemory: Process Physical Memory: 1596.61 MB used, 1855.09 MB peak
+[2017.06.25-05.56.38:401][493]LogMemory: Process Virtual Memory: 2908.97 MB used, 2919.93 MB peak
+[2017.06.25-05.56.38:401][493]LogMemory: Physical Memory: 4783.07 MB used,  11562.22 MB free, 16345.29 MB total
+[2017.06.25-05.56.38:401][493]LogMemory: Virtual Memory: 3906.67 MB used,  11562.22 MB free, 134217728.00 MB total
+[2017.06.25-05.56.38:401][493]LogMemory: 
+[2017.06.25-05.56.38:402][493]Allocator Stats for TBB: (not implemented)
+[2017.06.25-05.56.38:402][493]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_football1
+[2017.06.25-05.56.38:454][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052420s)
+[2017.06.25-05.56.38:455][493]LogAIModule: Creating AISystem for world football1
+[2017.06.25-05.56.38:456][493]LogPlayLevel: PIE: World Init took: (0.001642s)
+[2017.06.25-05.56.38:456][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/football1.football1 to /Game/Resources/Maps/UEDPIE_0_football1.football1 (0.054491s)
+[2017.06.25-05.56.38:456][493]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.25-05.56.38:478][493]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_football1.football1 up for play (max tick rate 0) at 2017.06.25-13.56.38
+[2017.06.25-05.56.38:478][493]LogWorld: Bringing up level for play took: 0.021288
+[2017.06.25-05.56.38:479][493]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.56.38:479][493]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.25-05.56.38:479][493]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.56.38:480][493]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.25-05.56.38:480][493]LogLoad: Took 0.170350 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_football1)
+[2017.06.25-05.56.39:476][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.56.39:521][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/football1.football1:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/football1.football1:PersistentLevel.football1' with GeneratedClass '/Game/Resources/Maps/football1.football1_C' with ClassGeneratedBy '/Game/Resources/Maps/football1.football1:PersistentLevel.football1'
+[2017.06.25-05.58.04:072][721]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.730 s
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: 
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 333]
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UEdGraphPin::BreakLinkTo Pin 'then' on node 'Print String' not reciprocally linked with pin 'execute' on node 'Delay'
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: Stack: 
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007298E1C6
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007273B7D2
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072751D96
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000060D2F2A3
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000060D2F0E4
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000060D2EC75
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006A311E6F
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006A4ECE19
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006A2FA493
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000006F9745CD
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000006F9743AF
+[2017.06.25-05.58.04:072][721]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000006F900961
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000006F9055A6
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000734EEB50
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000073533D60
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000068D4FDBD
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000734D9021
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000734A840E
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000734AA006
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000735355AD
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000073526518
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000729813AC
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007296B6E1
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000729832EB
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072967A32
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: USER32.dll!0x0000000093531C24
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: USER32.dll!0x000000009353156C
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000072983BF6
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor.exe!0x000000008272DB44
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor.exe!0x000000008271F0B0
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor.exe!0x000000008271F12A
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor.exe!0x0000000082730CF9
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: UE4Editor.exe!0x00000000827325F7
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: KERNEL32.DLL!0x0000000092B28364
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: ntdll.dll!0x00000000954570D1
+[2017.06.25-05.58.04:073][721]LogOutputDevice:Error: 
+[2017.06.25-05.58.04:081][721]LogStats:                SubmitErrorReport -  0.000 s
